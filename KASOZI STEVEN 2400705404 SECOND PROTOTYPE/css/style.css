@@ -1,0 +1,257 @@
+*{
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+img{
+    width: 100%;
+}
+.heading{
+    background-color: rgb(30, 60, 100);
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0;
+    height: 100px;
+}
+.heading img{
+    margin: 30px;
+    width: 225px;
+    border-radius: 100px;
+}
+.nav-a {
+    margin: 120px;  
+}
+.nav-a a,.contact a{
+    border-radius: 40px;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+    color: rgb(0, 174, 255);
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+}
+.nav-a a, .contact a :hover{
+    background-color: rgba(0, 0, 0,0.2);
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 300px;
+    align-items: center;
+    line-height: 30px;
+    background: rgb(195, 226, 195);
+    color: rgba(192, 73, 73, 0.82);
+}
+.banner h1{
+    margin-bottom: 30px;
+}
+.banner p{
+    width: 80%;
+}
+.banner button{
+    margin-top: 30px;
+    padding: 20px 40px 20px 40px;
+    font-size: 15px;
+    background: rgb(0, 119, 255);
+    border: none;
+    border-radius: 10px;
+}
+.banner button a{
+    text-decoration: none;
+    color: white;
+}
+.first{
+    display: flex; 
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: rgb(249, 239, 227);
+}
+.first img{
+    border-radius: 8px;
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.first h3, p{
+    padding: 20px;
+}
+.first h3{
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+.first p{
+    margin: 0;
+    color: #666;
+    line-height: 1.6;
+}
+.second{
+    display: flex; 
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: rgb(249, 239, 227);
+}
+.second img{
+    border-radius: 8px;
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.second h3, p{
+    padding: 20px;
+}
+footer{
+    background-color: rgb(30, 60, 100);
+    text-align: center;
+    color: white;
+}
+.second h3 h4{
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+.second p{
+    margin: 0;
+    color: #666;
+    line-height: 1.6;
+}
+.title h1{
+    margin: 20px 0 0 20px;
+    color: rgb(0, 174, 255);
+}
+.title p{
+    font-style: italic;
+    color: white;
+}
+.about{
+    padding-top: 40px;
+    background: white;
+    text-align: center;
+    color: #333;
+}
+.us{
+    background: white;
+}
+.what{
+    padding-top: 30px;
+    text-align: center;
+}
+.what h2 {
+    color: #333;
+}
+.what p{
+    margin: 0;
+    color: #666;
+    line-height: 1.6; 
+}
+.object{
+    width: 30%;
+    color: #666;
+    line-height: 1.6;
+    margin: 0 auto;
+}
+.contact{
+    margin-top: 30px;
+    text-align: center;
+}
+.contact p{
+    color: #666;
+}
+.message{
+    width: 100%;
+    line-height: 60px;
+    background: white;
+    text-align: center;
+}
+.form{
+    height: 70%;
+    width: 70%;
+    margin: auto;
+    background: rgb(249, 239, 227);
+}
+.message button{
+    padding: 15px 30px 15px 30px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+    background: rgb(0, 179, 255);
+    font-size: 13px;
+}
+.follow{
+    line-height: 40px;
+    margin: 50px 0 50px 0;
+    text-align: center;
+    background: white;
+}
+.message input{
+    padding: 10px 200px 10px 5px;
+    border: none;
+}
+.follow button{
+    padding: 17px 25px 17px 25px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    gap: 30px;
+}
+.facebook{
+    background: rgb(80, 135, 245);
+    color: white;
+}
+.twitter{
+    background-color: rgb(0, 187, 255);
+    color: white;
+}
+.insta{
+    color: white;
+    background: linear-gradient(45deg, #F58529, #DD2A7B,#8134AF,#515BDA);
+}
+.linked{
+    color: white;
+    background: rgb(44, 130, 223);
+}
+.you{
+    color: white;
+    background: red;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0, 0, 0,0.2);
+}
+@media(max-width :550px){
+    .first, .second{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .heading01{
+        display: none;
+    }
+    .nav-a{
+        display: block;
+    }
+    .heading{
+    background-color: rgb(30, 60, 100);
+    
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0;
+    height: 100px;
+}
+.nav-a {
+    margin: 40px;  
+}
+}
